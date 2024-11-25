@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: "center",
         justifyContent: "center",
-        backgroundColor: "rgba(24,24,24,0.6)"
+        backgroundColor: "#B4B2FF"
     },
     content: {
         backgroundColor: "#FFF",
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
         paddingBottom: 18
     },
     innerPassword: {
-        backgroundColor: "#e6e6e6",
+        backgroundColor: "#B4B2FF",
         width: "90%",
         padding: 14,
         borderRadius: 8,
@@ -84,16 +84,17 @@ const styles = StyleSheet.create({
         borderWidth: 0.1,
         borderRadius: 8,
         marginRight: 5,
-        borderColor: "#333",
+        borderColor: "#745CFF",
     },
     buttonSave: {
         flex: 1,
         alignItems:"center",
         padding:8,
-        backgroundColor:"#333",
+        backgroundColor:"#745CFF",
         borderRadius:8
     },
     buttonTextSave:{
-        color:"#FFF"
+        color:"#000",
+        fontWeight: "bold",
     }
 })

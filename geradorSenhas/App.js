@@ -39,10 +39,10 @@ function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Image
-        source={require("./src/img/logolock.png")}
+        source={require("./src/img/cadeadoroxo.png")}
         style={styles.logo}
       />
-      <Text style={styles.title}>LockGen</Text>
+      <Text style={styles.title}>KeyMaster</Text>
       
       <TouchableOpacity 
         style={styles.button} 
@@ -78,12 +78,14 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#B4B2FF',
     alignItems: 'center',
     justifyContent: 'center',
   },
   logo: {
     marginBottom: 20,
+    width: 200,
+    height: 200,
   },
   title: {
     fontSize: 28,
@@ -92,7 +94,7 @@ const styles = StyleSheet.create({
  
   },
   button: {
-    backgroundColor: "#333",
+    backgroundColor: "#745CFF",
     width: '70%',
     height: 50,
     borderRadius: 8,
@@ -101,7 +103,7 @@ const styles = StyleSheet.create({
     marginBottom: 20
   },
   textButton: {
-    color: "#FFF",
+    color: "#000",
     fontWeight: "bold",
     fontSize: 18,
  
